@@ -45,9 +45,9 @@ The API endpoints and their functionalities are documented below.
 
 ### Vending Machine Endpoints
 
-- `POST /vending-machine/deposit`: Deposit coins into the vending machine account (requires authentication and buyer role).
-- `POST /vending-machine/buy`: Buy products from the vending machine (requires authentication and buyer role).
-- `POST /vending-machine/reset`: Reset the deposit in the vending machine account (requires authentication and buyer role).
+- `POST /BuyerResetDeposit/deposit`: Deposit coins into the vending machine account (requires authentication and buyer role).
+- `POST /BuyerResetDeposit/buy`: Buy products from the vending machine (requires authentication and buyer role).
+- `POST /BuyerResetDeposit/reset`: Reset the deposit in the vending machine account (requires authentication and buyer role).
 
 ## Architecture
 
